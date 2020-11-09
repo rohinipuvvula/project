@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--Handwritings and new fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <!--font awesome css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--preloader (spinning atom)-->
+    <div id="preloader">
+        <span id="one" class="revolve"></span>
+        <span id="two" class="revolve"></span>
+        <span id="three" class="revolve"></span>
+        <span id="centre"></span>
+    </div>
+    <!--preloader end-->
+
+    <!--navigation-->
+    <header>
+        <nav id="navigation">
+            <div id="items">
+                <a class="item" href="#home">HOME<hr></a>
+                <a class="item" href="#about">ABOUT<hr></a>
+                <a class="item" href="#blog">BLOG<hr></a>
+                <a class="item" href="#contact">CONTACT US<hr></a>
+            </div>
+        </nav>
+        <div id="yellow_strip">
+        </div>
+    </header>
+    <!--navigation end-->
+
+    <!--home section-->
+    <section id="home">
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+                    <h1>Let's get <span>started</span>.</h1><br>
+                    <h1>Shall we ?</h2>
+                </div>
+
+                <div id="home-button">
+                    <a href="#about" id="arrow-down"><i class="fa fa-chevron-circle-down"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--main heading end-->        
+    </section>
+    <!--home section end-->
+
+    <!--about-->
+    <section id="about">
+        <div class="content-box-large"> 
+            <div class="container">
+                <div class="row">
+                    <div id="about_heading" class="col-md-6">
+                        <h5>WHO IS SHE</h5>
+                        <h2>A <span><strong>STORY</strong></span><br>ABOUT ME</h2>
+                    </div>
+
+                    <div id="about_matter" class="col-md-6 text-center">
+                        <p>Determined Computer Science student. Has always been curious about the world of computing leading me to pursue my degree in computer science</p>
+                        <p>Capable enough to lead the project as a team and also ensures progess for all the team members with equal opportunity and motivation</p>    
+                    </div>
+                </div>
+            </div>
+            <div class="content-box-large">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-3 text-center about-icons">
+                            <i class="fa fa-tachometer" aria-hidden="true"></i>
+                            <h3>Spontaneous</h3>
+                            <hr>
+                            <p>
+                                Can improvise on spot and can handle impromtus further leading to good risk management
+                            </p>
+                        </div>
+                        <div class="col-md-3 text-center about-icons">
+                            <i class="fa fa-fighter-jet" aria-hidden="true"></i>
+                            <h3>Smart Working</h3>
+                            <hr>
+                            <p>
+                              Brings out the best way to perform the assigned task by efficient utilization of resources
+                            </p>
+                        </div>
+                        <div class="col-md-3 text-center about-icons">
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                            <h3>Reliable</h3>
+                            <hr>
+                            <p>
+                                Leadership qualities to take up the responsibility of the project and successfully complete it
+                            </p>
+                        </div>
+                        <div class="col-md-3 text-center about-icons">
+                            <i class="fa fa-line-chart" aria-hidden="true"></i>
+                            <h3>Dynamic</h3>
+                            <hr>
+                            <p>
+                                Always inquisitive and curious to learn and progess
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about section end-->
+
+    <!--quotation place-->
+    <section id="quote" class="text-center content-box-large">
+            <h1> <i class="fa fa-quote-left"></i> If something is important enough, you will make it happen even if the odds are not not in your favour. <i class="fa fa-quote-right"></i></h1>
+    </section>
+
+    <br><br>
+    <!--blog section-->
+    <section id="blog">
+        <div class=content>
+            <h2 class=bname>Introduction to Java</h2>
+            <img src="./img/java.jpg" width="700" height="300" >
+            <p class= para>Java is a set of computer software and specifications developed by James Gosling at Sun Microsystems,
+                 which was later acquired by the Oracle Corporation, that provides
+                 a system for developing application software and deploying it in a cross-platform computing environment. </p>
+            <p class= para>The Java platform is a suite of programs that facilitate developing and running programs written in the Java programming language.
+                 A Java platform will include an execution engine (called a virtual machine), a compiler and a set of libraries; there may also be additional servers and alternative libraries that depend on the requirements.
+                  Java is not specific to any processor or operating system as Java platforms have been implemented for a wide variety of hardware and operating 
+                systems with a view to enable Java programs to run identically on all of them.</p>
+            <p></p>
+                
+        </div>
+        <br><br>
+
+        <div class=content>
+            <h2 class=bname>Introduction to SQL</h2>
+            <img src="./img/sql.png" width="700" height="300">
+            <p class= para>SQL is a domain-specific language used in programming and designed for managing data held in a relational database
+                 management system, or for stream processing in a relational data stream management system.</p>
+            <p class= para>SQL implementations are incompatible between vendors and do not necessarily completely follow standards.
+                In particular date and time syntax, string concatenation, NULLs, and comparison case sensitivity vary from vendor to vendor.</p>
+            <p class= para>Particular exceptions are PostgreSQL and Mimer SQL which strive for standards compliance, though PostgreSQL does not adhere
+                 to the standard in how folding of unquoted names is done. The folding of unquoted names to lower case in PostgreSQL is incompatible with the SQL standard, which says that unquoted names should be folded to upper case.
+                 Thus, Foo should be equivalent to FOO not foo according to the standard.</p>
+        </div>
+
+        <br><br>
+
+        <div class=content>
+            <h2 class=bname>Java Script</h2>
+            <img src="./img/js.jpg" width="700" height="300" >
+            <p class= para>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.
+                 JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing,
+                  prototype-based object-orientation, and first-class functions.</p>
+            <p class= para>A computer program is a list of "instructions" to be "executed" by a computer.
+                In a programming language, these programming instructions are called statements. 
+                A JavaScript program is a list of programming statements.</p>
+           
+        </div>
+        <br><br><br>
+
+    </section>
+    <!--contact section-->
+    <section id="contact">
+        <div>
+            <h1 class="text-center">CONTACT</h1><hr class="text-center">
+            <h3 class="text-center">Want to work together ?</h3>
+        </div>
+        <div >
+            <form id="form" action autocomplete="off">
+                <input id="fname" type="text" name="fname" placeholder="Name">
+                <input id="mail_id" type="email" name="mail_id" placeholder="Mail">
+                <input id="phone_number" type="tel" name="phone_number" placeholder="Contact">
+                <textarea placeholder="Your message"></textarea><br>
+                <input id="submit_button" type="submit" value="Get in touch" onclick="alert('We will contact you asap ;) ')">
+            </form>
+        </div>
+    </section>
+    <!--contact section end-->
+    <div id="copyrights">
+        <div>
+            <ul id="social_icons" style="list-style-type: none;">
+                <li class="copyrigt-icons"><i class="fa fa-facebook-square copyright-icons"></i></li>
+                <li class="copyrigt-icons"><i class="fa fa-linkedin-square copyright-icons"></i></li>
+                <li class="copyrigt-icons"><i class="fa fa-instagram copyright-icons"></i></li>
+                <li class="copyrigt-icons"><i class="fa fa-github-square copyright-icons"></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--loading jquery file-->
+    <script src="js/jquery.js"></script>
+    <!--loading bootstrap js-->
+    <script src="js/bootstrap/bootstrap.js"></script>
+    <!--using custom JS-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
